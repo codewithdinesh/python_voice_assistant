@@ -98,6 +98,10 @@ if __name__ == '__main__':
             speak("Opening Google")
             webbrowser.open("google.com")
 
+        elif 'open Wikipedia' in query:
+            speak("Opening Wikipedia")
+            webbrowser.open("Wikipedia.com")
+
         elif 'play music' in query or "play song" in query:
                 speak("Here you go with music")
                 music_dir ="A:\Music"
